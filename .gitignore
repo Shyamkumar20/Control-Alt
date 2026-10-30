@@ -1,0 +1,19 @@
+.venv/
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.pyc
+
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Python
+software.json

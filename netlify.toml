@@ -1,0 +1,11 @@
+# Netlify configuration for ControlAlt (Next.js 15 + Supabase)
+# Netlify auto-detects Next.js; this file pins the build settings.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Environment variables are NOT stored here (secrets stay out of git).
+# Add these in Netlify dashboard: Site settings → Environment variables
+#   NEXT_PUBLIC_SUPABASE_URL
+#   NEXT_PUBLIC_SUPABASE_ANON_KEY
