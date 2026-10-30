@@ -17,3 +17,9 @@ node_modules/
 
 # Python
 software.json
+
+# Local Netlify folder
+.netlify
+
+.vercel
+.env*
