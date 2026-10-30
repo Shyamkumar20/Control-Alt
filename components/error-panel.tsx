@@ -35,7 +35,7 @@ export function ErrorPanel({ error, reset }: ErrorPanelProps) {
           Try again
         </button>
         <Link
-          href="/"
+          href="/directory"
           className="rounded-ca border border-ca-border2 px-3 py-1.5 text-xs text-ca-text-secondary transition-colors hover:border-ca-blue hover:text-ca-blue-light"
         >
           Back to directory

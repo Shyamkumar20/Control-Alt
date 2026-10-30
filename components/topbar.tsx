@@ -37,14 +37,16 @@ export function Topbar({
     if (isControlled) return;
 
     const trimmed = value.trim().slice(0, 80);
-    router.push(trimmed ? `/?q=${encodeURIComponent(trimmed)}` : "/");
+    router.push(
+      trimmed ? `/directory?q=${encodeURIComponent(trimmed)}` : "/directory"
+    );
   }
 
   return (
     <header className="sticky top-0 z-40 border-b border-ca-border bg-ca-bg">
       <div className="mx-auto flex h-12 w-full max-w-[1400px] items-center gap-2 px-3 sm:gap-3 sm:px-4">
         <Link
-          href="/"
+          href="/directory"
           onClick={onReset}
           className="flex shrink-0 items-center gap-2"
           aria-label="ControlAlt home"

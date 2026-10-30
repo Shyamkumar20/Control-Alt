@@ -20,7 +20,7 @@ export default function ToolNotFound() {
           removed.
         </p>
         <Link
-          href="/"
+          href="/directory"
           className="mt-5 rounded-ca bg-ca-blue px-3 py-1.5 text-xs font-medium text-ca-on-accent transition-colors hover:bg-ca-blue-light"
         >
           Back to directory

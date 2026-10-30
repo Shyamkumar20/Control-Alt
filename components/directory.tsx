@@ -34,7 +34,7 @@ export function Directory({ tools }: DirectoryProps) {
 
   const resetFilters = useCallback(() => {
     setFilters(DEFAULT_FILTERS);
-    window.history.replaceState(null, "", "/");
+    window.history.replaceState(null, "", "/directory");
   }, []);
 
   const categoryFacets = useMemo(() => buildCategoryFacets(tools), [tools]);

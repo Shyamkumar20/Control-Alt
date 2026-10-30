@@ -78,7 +78,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
       >
         <div className="pt-5">
           <Link
-            href="/"
+            href="/directory"
             className="inline-flex items-center gap-1.5 text-xs text-ca-text-secondary transition-colors hover:text-ca-blue-light"
           >
             <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />

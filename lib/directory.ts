@@ -229,7 +229,7 @@ export function toolHref(fullName: string): string {
 }
 
 export function categoryHref(slug: CategorySlug): string {
-  return `/?category=${slug}`;
+  return `/directory?category=${slug}`;
 }
 
 export function countLabel(count: number): string {
